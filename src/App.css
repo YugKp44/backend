@@ -1,0 +1,96 @@
+.brand-search-container {
+  padding: 30px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f9fc;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60%;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.result-container {
+  margin-top: 20px;
+}
+
+.result-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.brand-domain {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.brand-icon {
+  margin-bottom: 10px;
+}
+
+.download-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+.no-results {
+  text-align: center;
+  color: #777;
+}
